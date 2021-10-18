@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Angstargram"
+        android:textSize="60sp"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+        android:id="@+id/editText_email_xml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/editText_password_xml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:hint="PassWord"/>
+
+    <Button
+        android:id="@+id/button_login_xml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:text="SingUp OR SingIn BY Email"
+        android:layout_marginVertical="20dp"
+        android:backgroundTint="#404040"/>
+
+    <ImageButton
+        android:id="@+id/imagebutton_fackbook_xml"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/fackbook_logo_login"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="30dp"/>
+
+    <ImageButton
+        android:id="@+id/imagebutton_google_xml"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/google_logo_login"
+        android:scaleType="fitXY"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="100dp"/>
+
+
+
+</LinearLayout>

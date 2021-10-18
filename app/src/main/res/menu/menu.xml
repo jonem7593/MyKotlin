@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/custom_menu_xml_home"
+        android:icon="@drawable/insta4"
+        android:enabled="true"
+        android:title="@string/home"></item>
+    <item android:id="@+id/custom_menu_xml_sach"
+        android:icon="@drawable/insta3"
+        android:enabled="true"
+        android:title="@string/home"></item>
+    <item android:id="@+id/custom_menu_xml_poto"
+        android:icon="@drawable/insta5"
+        android:enabled="true"
+        android:title="@string/home"></item>
+    <item android:id="@+id/custom_menu_xml_hato"
+        android:icon="@drawable/insta2"
+        android:enabled="true"
+        android:title="@string/home"></item>
+    <item android:id="@+id/custom_menu_xml_profile"
+        android:icon="@drawable/insta1"
+        android:enabled="true"
+        android:title="@string/home"></item>
+</menu>
